@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Order page</title>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/lodash.min.js" charset="utf-8"></script>
+  <script src="js/moment.min.js" charset="utf-8"></script>
+  <script src="js/clndr.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/clndr.css">
+</head>
+<body>
+<h1>Calender</h1>
+<div id="calendar" class="cal3"></div>
+<script type="text/javascript">
+$(function(){
+  $('#calendar').clndr();
+});
+</script>
+</body>
+</html>
